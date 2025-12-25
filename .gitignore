@@ -1,0 +1,76 @@
+# 🔒 الأسرار والتوكنات (الأهم)
+AAH87KyBdZMl8H3l0mdUOwIgmptpqDouwYM
+.env
+*.env
+.env.local
+.env.*.local
+
+# 📱 بيانات المستخدمين السرية
+config.json
+config.yaml
+secrets.json
+database.db
+*.db
+*.sqlite
+*.sqlite3
+
+# 🗂️ ملفات Python المؤقتة
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 🔧 أدوات التطوير
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+
+# 🖼️ وسائط مؤقتة
+*.png
+*.jpg
+*.jpeg
+*.gif
+media/
+uploads/
+tmp/
+
+# 📦 Node.js (إن استخدمت)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🏗️ Docker
+.dockerignore
+Dockerfile.user
+docker-compose.override.yml
+
+# 💻 IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 🔍 OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
